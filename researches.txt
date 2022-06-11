@@ -1,0 +1,38 @@
+
+https://www.youtube.com/watch?v=5ovdoxnfFVc
+
+https://github.com/stonecoldpat/anonymousvoting
+
+Towards Smart Contract-based Verification of Anonymous Credentials
+https://eprint.iacr.org/2022/492.pdf
+
+zk-SNARK circut
+https://blog.iden3.io/first-zk-proof.html
+
+Quadratic Arithmetic Program
+
+learn to use zk-snark libraries and use it instead of reading theories
+
+SNARK, STARK, winterfell, polygon miden
+
+
+https://www.youtube.com/watch?v=pLu7XeEN-f4
+
+https://arxiv.org/pdf/2204.00057.pdf
+https://github.com/semaphore-protocol/semaphore
+
+whisper
+https://eth.wiki/concepts/whisper/whisper-overview
+
+whisper is depricated
+waku
+https://rfc.vac.dev/spec/10/
+
+waku have pool voting.
+https://docs.wakuconnect.dev/docs/guides/vote_poll_sdk/
+only ERC-20 token holders can create or answer polls/votes 
+
+
+circut :
+Doing string operations in your circuit definition is structurally wrong, IMO. Circuits should verify a relationship that you already know, using inputs pre-processed in order to be efficiently verifiable.
+E.g. you would compute outside of the circuit that the string does indeed end with a substring, and then pass the position of that substring to the circuit in order for it to verify that fact.
