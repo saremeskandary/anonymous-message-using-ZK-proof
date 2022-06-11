@@ -35,12 +35,17 @@ Scalable Ranked-Choice Voting Protocol
 [whisper](https://eth.wiki/concepts/whisper/whisper-overview)
 
 *note* : whisper is **depricated**
-waku
+### waku
 https://rfc.vac.dev/spec/10/
 
-waku have pool voting.
-https://docs.wakuconnect.dev/docs/guides/vote_poll_sdk/
+[waku](https://docs.wakuconnect.dev/docs/guides/vote_poll_sdk/) have pool voting.
+
 *note* : only **ERC-20** token holders can create or answer polls/votes.
 
 *note* : In circut, doing string operations in your circuit definition is structurally wrong, IMO. Circuits should verify a relationship that you already know, using inputs pre-processed in order to be efficiently verifiable.
 E.g. you would compute outside of the circuit that the string does indeed end with a substring, and then pass the position of that substring to the circuit in order for it to verify that fact.
+
+
+[ZkVerse tutorial](https://github.com/enricobottazzi/ZKverse)
+
+
