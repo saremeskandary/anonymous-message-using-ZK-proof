@@ -9,7 +9,7 @@
 ## zk-SNARK circut
 
 [Create your first zero-knowledge snark circuit using circom and snarkjs](https://blog.iden3.io/first-zk-proof.html)
-    
+
 ## Quadratic Arithmetic Program
 
 [Quadratic Arithmetic Programs: from Zero to Hero](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
@@ -34,18 +34,19 @@ Scalable Ranked-Choice Voting Protocol
 
 [whisper](https://eth.wiki/concepts/whisper/whisper-overview)
 
-*note* : whisper is **depricated**
+_note_ : whisper is **depricated**
+
 ### waku
+
 https://rfc.vac.dev/spec/10/
 
 [waku](https://docs.wakuconnect.dev/docs/guides/vote_poll_sdk/) have pool voting.
 
-*note* : only **ERC-20** token holders can create or answer polls/votes.
+_note_ : only **ERC-20** token holders can create or answer polls/votes.
 
-*note* : In circut, doing string operations in your circuit definition is structurally wrong, IMO. Circuits should verify a relationship that you already know, using inputs pre-processed in order to be efficiently verifiable.
+_note_ : In circut, doing string operations in your circuit definition is structurally wrong, IMO. Circuits should verify a relationship that you already know, using inputs pre-processed in order to be efficiently verifiable.
 E.g. you would compute outside of the circuit that the string does indeed end with a substring, and then pass the position of that substring to the circuit in order for it to verify that fact.
-
 
 [ZkVerse tutorial](https://github.com/enricobottazzi/ZKverse)
 
-
+[zk chart](https://raw.githubusercontent.com/enricobottazzi/ZKverse/master/screenshots/screenshot12.jpg)
